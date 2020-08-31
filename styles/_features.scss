@@ -1,0 +1,159 @@
+.features-container {
+  background: radial-gradient(#525252, #131313);
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding-top: 5rem;
+
+  .wave {
+    position: absolute;
+    left: 0;
+    bottom: -25%;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+.features {
+  min-height: 90vh;
+  // width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    margin: 0 10%;
+  }
+
+  .brands {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 10rem;
+
+    .brand-logo {
+      width: 10%;
+      margin: 6rem;
+    }
+  }
+
+  .kolink-spec-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    .kolink-spec {
+      margin: 5rem auto;
+      
+      li {
+        line-height: 5rem;
+        font-size: 2rem;
+        list-style-type: disclosure-closed;
+      }
+    }
+  }
+
+
+  .features-card-default {
+    display: grid;
+    margin-bottom: 10rem;
+    grid-template-columns: 0 repeat(2, minmax(5rem, 1fr)) 0;
+    grid-template-rows: 2fr;
+
+    .features-card-image {
+      grid-column: 1/3;
+      object-fit: cover;
+      width: 100%;
+      transform: translateX(-10%);
+    }
+
+    .features-card-info {
+      grid-column: 3/4;
+      object-fit: cover;
+      justify-self: center;
+      width: 70%;
+      margin-top: 4rem;
+    
+      p {
+       text-align: left; 
+       margin: 0;
+       font-size: 3rem;
+      }
+    }
+
+  }
+
+  .features-card-flipped {
+    display: grid;
+    margin-bottom: 10rem;
+    grid-template-columns: 0 repeat(2, minmax(5rem, 1fr)) 0;
+    grid-template-rows: 2fr;
+    text-align: right;
+
+    .features-card-image {
+      grid-column: 3/4;
+      object-fit: cover;
+      justify-self: right;
+      width: 100%;
+      transform: translateX(10%);
+    }
+
+    .features-card-info {
+      grid-column: 1/3;
+      grid-row: 1/2;
+      object-fit: cover;
+      justify-self: center;
+      width: 70%;
+      margin-top: 4rem;
+    
+      p {
+       text-align: right; 
+       margin: 0;
+       font-size: 3rem;
+      }
+    }
+
+  }
+
+  .features-kolink-img-right {
+    width: 80%;
+    margin: 0 -30% 10rem auto;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+    .card {
+      background: white;
+      margin: 0rem 5rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 2rem;
+      overflow: hidden;
+      
+      h4 {
+        margin: 2rem 0rem 1rem 0rem;
+      }
+
+      p {
+        padding: 2rem;
+      }
+      
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}

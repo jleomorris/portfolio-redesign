@@ -1,0 +1,13 @@
+.distortion {
+  grid-column: 2/3;
+  width: 445px;
+  height: 556px;
+  // align-items: center;
+  // justify-content: center;
+  // object-fit: cover;
+  
+  canvas {
+    display: inline;
+    text-align: center;
+  }
+}
