@@ -473,6 +473,24 @@ nav .order {
       justify-self: center;
   width: 70%;
   margin-top: 4rem;
+  border: 1px solid white;
+  padding: 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.features .features-card-default .features-card-info h3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 5px solid #5d9716;
+  padding: 1rem 1.5rem;
+  -webkit-transform: translate(30px, -60px);
+          transform: translate(30px, -60px);
+  letter-spacing: 1rem;
+  white-space: nowrap;
 }
 
 .features .features-card-default .features-card-info p {
@@ -518,6 +536,24 @@ nav .order {
       justify-self: center;
   width: 70%;
   margin-top: 4rem;
+  border: 1px solid white;
+  padding: 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.features .features-card-flipped .features-card-info h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px solid #5d9716;
+  padding: 1rem 1.5rem;
+  -webkit-transform: translate(-30px, -60px);
+          transform: translate(-30px, -60px);
+  letter-spacing: 1rem;
+  white-space: nowrap;
 }
 
 .features .features-card-flipped .features-card-info p {
