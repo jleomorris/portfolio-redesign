@@ -9,6 +9,10 @@ html {
           box-sizing: border-box;
 }
 
+hr {
+  margin: 1rem 0;
+}
+
 body {
   color: white;
   font-family: 'Montserrat', sans-serif;
