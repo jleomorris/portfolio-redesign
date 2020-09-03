@@ -2,6 +2,7 @@
   background: radial-gradient(#525252, #131313);
 }
 
+
 .nav-container {
   background: rgb(7, 7, 7);
   height: max-content;
@@ -54,16 +55,7 @@ nav {
 
 .banner-container {
   width: 100%;
-  min-height: 30vh;
-  background: url(../img/banner.jpg) no-repeat center;
-  // object-position: initial;
-  // object-fit: fill;
   background-size: cover;
-
-  #banner {
-    width: 100%;
-    // background: url(../img/parallax_carousel/banner.jpg);
-  }
 }
 
 #showcase-card-1 {
