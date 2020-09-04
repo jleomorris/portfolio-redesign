@@ -26,6 +26,17 @@ nav {
     flex: 5;
     list-style: none;
     flex-wrap: wrap;
+
+    li {
+      a {
+        color: #888c91;
+        text-transform: uppercase;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
   }
 
   #logo {
@@ -46,10 +57,12 @@ nav {
     }
   }
 
-  .order {
+  #contact-button {
     background: #59940a;
     padding: 1rem 2rem;
     border-radius: 2rem;
+    color: white;
+    text-transform: unset;
   }
 }
 

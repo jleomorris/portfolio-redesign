@@ -99,6 +99,15 @@ nav ul {
       flex-wrap: wrap;
 }
 
+nav ul li a {
+  color: #888c91;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
 nav #logo {
   font-family: 'Lobster', cursive;
   -webkit-box-flex: 1;
@@ -121,10 +130,12 @@ nav #logo::after {
   mix-blend-mode: screen;
 }
 
-nav .order {
+nav #contact-button {
   background: #59940a;
   padding: 1rem 2rem;
   border-radius: 2rem;
+  color: white;
+  text-transform: unset;
 }
 
 .banner-container {
