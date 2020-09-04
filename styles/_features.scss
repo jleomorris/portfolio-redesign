@@ -45,6 +45,23 @@
     }
   }
 
+  #return-to-top {
+    width: fit-content;
+    background: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 1rem 0 1rem 1rem;
+    border-radius: 1rem 0 1rem 1rem;
+
+      a {
+        .fas {
+          font-size: 6rem;
+          margin: 1rem;
+        }
+      }
+  }
+
   .kolink-spec-container {
     width: 80%;
     margin: 0 auto;
