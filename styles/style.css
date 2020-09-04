@@ -242,14 +242,14 @@ nav .order {
 }
 
 .default a {
-  color: #ff22ff;
+  color: #7be000;
 }
 
 .default i {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
-  color: #ffbdff;
+  color: white;
 }
 
 .reverse span {
@@ -258,7 +258,7 @@ nav .order {
 }
 
 .reverse a {
-  color: #ff22ff;
+  color: #7be000;
 }
 
 .reverse .info {
@@ -269,7 +269,7 @@ nav .order {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
-  color: #ffbdff;
+  color: white;
 }
 
 #showcase-card-2 {
