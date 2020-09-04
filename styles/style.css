@@ -672,7 +672,17 @@ footer .footer-content {
 }
 
 footer .footer-content p {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+footer .footer-content #copyright {
   font-size: 1rem;
+}
+
+footer .footer-content .fab, footer .footer-content .far, footer .footer-content .fas {
+  margin: 2rem 2rem 2rem 0;
 }
 
 footer .fab, footer .far {
@@ -703,9 +713,8 @@ footer .fab, footer .far {
             flex: 1;
   }
   nav ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   nav ul li {
     margin-left: 2rem;
