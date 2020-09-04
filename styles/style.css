@@ -242,7 +242,7 @@ nav .order {
 }
 
 .default a {
-  color: #00ffe7;
+  color: #ff22ff;
 }
 
 .default i {
@@ -258,8 +258,7 @@ nav .order {
 }
 
 .reverse a {
-  color: #00ffe7;
-  font-weight: 900;
+  color: #ff22ff;
 }
 
 .reverse .info {
