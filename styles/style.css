@@ -772,6 +772,11 @@ footer .fab, footer .far {
     -ms-grid-column-span: 1;
     grid-column: 2/3;
     margin: 5rem 0;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    font-size: 25rem;
+    opacity: 0.2;
   }
   .features {
     -webkit-box-align: center;
