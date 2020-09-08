@@ -212,6 +212,7 @@ nav #contact-button {
   -ms-grid-column-align: center;
       justify-self: center;
   font-size: 15rem;
+  opacity: 0.3;
 }
 
 .showcase img, .showcase .about-img {
@@ -261,6 +262,7 @@ nav #contact-button {
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   color: white;
+  opacity: 0.3;
 }
 
 .reverse span {
