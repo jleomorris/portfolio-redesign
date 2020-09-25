@@ -322,7 +322,7 @@ nav #contact-button {
 }
 
 .skills .icon-container {
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -333,16 +333,36 @@ nav #contact-button {
       flex-wrap: wrap;
 }
 
+.skills .icon-container .skill {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3rem;
+}
+
 .skills .icon-container .skill .label {
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 600;
-  color: #59940a;
+  color: #92ff00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .skills .fab, .skills .fas {
-  font-size: 10rem;
-  color: white;
+  font-size: 12rem;
+  color: rgba(255, 255, 255, 0.3);
   margin: 2rem;
 }
 
