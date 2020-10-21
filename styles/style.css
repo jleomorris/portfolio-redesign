@@ -345,7 +345,7 @@ nav #contact-button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 3rem;
+  margin: 4rem;
 }
 
 .skills .icon-container .skill .label {
