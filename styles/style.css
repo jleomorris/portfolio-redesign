@@ -140,9 +140,9 @@ nav #contact-button {
 
 .banner-container {
   width: 100%;
-  background-image: url(../img/20200915_1739562.jpg);
+  background-image: url(../img/20200915_173956.jpg);
   background-size: cover;
-  max-height: 768px;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
