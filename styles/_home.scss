@@ -2,7 +2,6 @@
   background: radial-gradient(#525252, #131313);
 }
 
-
 .nav-container {
   background: rgb(7, 7, 7);
   height: max-content;
@@ -40,11 +39,11 @@ nav {
   }
 
   #logo {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     flex: 1;
     position: relative;
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -68,7 +67,9 @@ nav {
 
 .banner-container {
   width: 100%;
-  background-size: cover;
+  // background-image: url(../img/20200915_1739562.jpg);
+  // background-size: cover;
+  // background-position: center;
 }
 
 #showcase-card-1 {
@@ -77,7 +78,6 @@ nav {
 
   .info {
     padding-left: 15rem;
-
   }
 }
 
@@ -93,7 +93,7 @@ nav {
 
   .about-img:before {
     position: absolute;
-    content: '';
+    content: "";
     right: -5%;
     top: 5%;
     border: 10px solid #59940a;
@@ -101,7 +101,6 @@ nav {
     height: 95%;
     opacity: 0.7;
   }
-
 
   h2 {
     grid-column: 2/3;
@@ -128,7 +127,8 @@ nav {
     opacity: 0.3;
   }
 
-  img, .about-img {
+  img,
+  .about-img {
     grid-column: 2/3;
     grid-row: 1/2;
     // min-height: 90%;
@@ -141,7 +141,7 @@ nav {
     grid-column: 3/4;
     grid-row: 1/2;
     align-self: center;
-    
+
     h3 {
       padding-bottom: 3rem;
       text-align: left;
@@ -154,10 +154,10 @@ nav {
     color: yellowgreen;
     font-weight: 900;
   }
-  
+
   a {
-    color: #7be000;;
-  }  
+    color: #7be000;
+  }
 
   i {
     grid-column: 3/4;
@@ -171,10 +171,10 @@ nav {
     color: yellowgreen;
     font-weight: 900;
   }
-  
+
   a {
-    color: #7be000;;
-  }  
+    color: #7be000;
+  }
 
   .info {
     text-align: left;
@@ -184,14 +184,14 @@ nav {
     grid-column: 2/3;
     color: white;
   }
-
 }
 
 #showcase-card-2 {
   margin-top: 5rem;
 }
 
-#showcase-card-2, #showcase-card-4 {
+#showcase-card-2,
+#showcase-card-4 {
   img {
     grid-column: 3/4;
     grid-row: 1/2;
@@ -201,11 +201,10 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     text-align: right;
-    
+
     h3 {
       padding-bottom: 3rem;
       text-align: right;
     }
   }
 }
-

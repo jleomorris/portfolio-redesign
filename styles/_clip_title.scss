@@ -18,7 +18,7 @@
   /* Color fallback */
   color: #fff;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.6);
   background-position: right;
 }
 
@@ -71,7 +71,7 @@
 
 .clip-text_fifteen {
   // background-image: url(https://jamesleomorris.com/img/banner-full-size.jpg);
-  background-image: url(../img/kolink_aio_side.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../img/20200915_1739562.jpg);
+  //   background-size: cover;
+  //   background-position: center;
 }

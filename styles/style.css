@@ -6,7 +6,7 @@ html {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 hr {
@@ -15,24 +15,24 @@ hr {
 
 body {
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   font-size: 2.5rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
 }
 
 h2 {
   font-size: 8rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
 }
 
 h3 {
   font-size: 3.5rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
 }
 
@@ -77,11 +77,11 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav ul {
@@ -89,14 +89,14 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-flex: 5;
-  -ms-flex: 5;
-  flex: 5;
+      -ms-flex: 5;
+          flex: 5;
   list-style: none;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 nav ul li a {
@@ -111,8 +111,8 @@ nav ul li a:hover {
 nav #logo {
   font-family: "Lobster", cursive;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   position: relative;
 }
 
@@ -126,7 +126,7 @@ nav #logo::after {
   background: #59940a;
   border-radius: 50%;
   -webkit-transform: translate(-20%, -20%);
-  transform: translate(-20%, -20%);
+          transform: translate(-20%, -20%);
   mix-blend-mode: screen;
 }
 
@@ -140,7 +140,6 @@ nav #contact-button {
 
 .banner-container {
   width: 100%;
-  background-size: cover;
 }
 
 #showcase-card-1 {
@@ -156,10 +155,10 @@ nav #contact-button {
   display: -ms-grid;
   display: grid;
   min-height: 30vh;
-  -ms-grid-columns: 10% (minmax(5rem, 1fr)) [2] 10%;
-  grid-template-columns: 10% repeat(2, minmax(5rem, 1fr)) 10%;
+  -ms-grid-columns: 10% (minmax(5rem, 1fr))[2] 10%;
+      grid-template-columns: 10% repeat(2, minmax(5rem, 1fr)) 10%;
   -ms-grid-rows: 2fr;
-  grid-template-rows: 2fr;
+      grid-template-rows: 2fr;
 }
 
 .showcase .about-img {
@@ -185,8 +184,8 @@ nav #contact-button {
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   text-align: center;
 }
 
@@ -198,7 +197,7 @@ nav #contact-button {
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   -ms-flex-item-align: start;
-  align-self: flex-start;
+      align-self: flex-start;
   text-align: center;
 }
 
@@ -207,10 +206,10 @@ nav #contact-button {
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   font-size: 15rem;
   opacity: 0.3;
 }
@@ -224,12 +223,12 @@ nav #contact-button {
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
 }
 
 .showcase .info {
@@ -240,8 +239,8 @@ nav #contact-button {
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .showcase .info h3 {
@@ -332,9 +331,9 @@ nav #contact-button {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .skills .icon-container .skill {
@@ -343,12 +342,12 @@ nav #contact-button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 4rem;
 }
 
@@ -361,11 +360,10 @@ nav #contact-button {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
-.skills .fab,
-.skills .fas {
+.skills .fab, .skills .fas {
   font-size: 12rem;
   color: rgba(255, 255, 255, 0.3);
   margin: 2rem;
@@ -422,10 +420,10 @@ nav #contact-button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 .features h2 {
@@ -442,12 +440,12 @@ nav #contact-button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 70%;
   margin: 0 auto;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-bottom: 10rem;
 }
 
@@ -480,8 +478,8 @@ nav #contact-button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .features .kolink-spec-container .kolink-spec {
@@ -498,10 +496,10 @@ nav #contact-button {
   display: -ms-grid;
   display: grid;
   margin-bottom: 10rem;
-  -ms-grid-columns: 0 (minmax(5rem, 1fr)) [2] 0;
-  grid-template-columns: 0 repeat(2, minmax(5rem, 1fr)) 0;
+  -ms-grid-columns: 0 (minmax(5rem, 1fr))[2] 0;
+      grid-template-columns: 0 repeat(2, minmax(5rem, 1fr)) 0;
   -ms-grid-rows: 2fr;
-  grid-template-rows: 2fr;
+      grid-template-rows: 2fr;
 }
 
 .features .features-card-default .features-card-image {
@@ -509,10 +507,10 @@ nav #contact-button {
   -ms-grid-column-span: 2;
   grid-column: 1/3;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 100%;
   -webkit-transform: translateX(-10%);
-  transform: translateX(-10%);
+          transform: translateX(-10%);
 }
 
 .features .features-card-default .features-card-info {
@@ -520,9 +518,9 @@ nav #contact-button {
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   width: 70%;
   margin-top: 4rem;
   border: 1px solid white;
@@ -540,7 +538,7 @@ nav #contact-button {
   border: 5px solid #5d9716;
   padding: 1rem 1.5rem;
   -webkit-transform: translate(30px, -60px);
-  transform: translate(30px, -60px);
+          transform: translate(30px, -60px);
   letter-spacing: 1rem;
   white-space: nowrap;
 }
@@ -555,10 +553,10 @@ nav #contact-button {
   display: -ms-grid;
   display: grid;
   margin-bottom: 10rem;
-  -ms-grid-columns: 0 (minmax(5rem, 1fr)) [2] 0;
-  grid-template-columns: 0 repeat(2, minmax(5rem, 1fr)) 0;
+  -ms-grid-columns: 0 (minmax(5rem, 1fr))[2] 0;
+      grid-template-columns: 0 repeat(2, minmax(5rem, 1fr)) 0;
   -ms-grid-rows: 2fr;
-  grid-template-rows: 2fr;
+      grid-template-rows: 2fr;
   text-align: right;
 }
 
@@ -567,12 +565,12 @@ nav #contact-button {
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -ms-grid-column-align: right;
-  justify-self: right;
+      justify-self: right;
   width: 100%;
   -webkit-transform: translateX(10%);
-  transform: translateX(10%);
+          transform: translateX(10%);
 }
 
 .features .features-card-flipped .features-card-info {
@@ -583,9 +581,9 @@ nav #contact-button {
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   width: 70%;
   margin-top: 4rem;
   border: 1px solid white;
@@ -603,7 +601,7 @@ nav #contact-button {
   border: 5px solid #5d9716;
   padding: 1rem 1.5rem;
   -webkit-transform: translate(-30px, -60px);
-  transform: translate(-30px, -60px);
+          transform: translate(-30px, -60px);
   letter-spacing: 1rem;
   white-space: nowrap;
 }
@@ -624,8 +622,8 @@ nav #contact-button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: black;
 }
 
@@ -637,8 +635,8 @@ nav #contact-button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   border-radius: 2rem;
   overflow: hidden;
@@ -654,7 +652,7 @@ nav #contact-button {
 
 .features .cards .card img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .soon {
@@ -664,14 +662,12 @@ nav #contact-button {
   z-index: 0;
 }
 
-.soon img,
-.soon .circle,
-.soon h2 {
+.soon img, .soon .circle, .soon h2 {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .soon .circle {
@@ -691,11 +687,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 footer ul {
@@ -703,17 +699,17 @@ footer ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   list-style: none;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 footer .footer-content {
   -webkit-box-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
+      -ms-flex: 2;
+          flex: 2;
   margin: 2rem 0;
 }
 
@@ -727,14 +723,11 @@ footer .footer-content #copyright {
   font-size: 1rem;
 }
 
-footer .footer-content .fab,
-footer .footer-content .far,
-footer .footer-content .fas {
+footer .footer-content .fab, footer .footer-content .far, footer .footer-content .fas {
   margin: 2rem 2rem 2rem 0;
 }
 
-footer .fab,
-footer .far {
+footer .fab, footer .far {
   font-size: 3rem;
   margin: 0 1rem;
 }
@@ -758,12 +751,12 @@ footer .far {
   }
   nav #logo {
     -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   nav ul {
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
   }
   nav ul li {
     margin-left: 2rem;
@@ -785,16 +778,14 @@ footer .far {
   }
   .showcase {
     -ms-grid-columns: 10% 1fr 10%;
-    grid-template-columns: 10% 1fr 10%;
+        grid-template-columns: 10% 1fr 10%;
   }
   .showcase img {
     width: 100%;
     -o-object-fit: contain;
-    object-fit: contain;
+       object-fit: contain;
   }
-  .showcase img,
-  .showcase h2,
-  .showcase .info {
+  .showcase img, .showcase h2, .showcase .info {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
@@ -812,8 +803,8 @@ footer .far {
   }
   .features {
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .features h2 {
     margin-top: 5rem;
@@ -862,8 +853,8 @@ footer .far {
   }
   footer h1 {
     -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
 }
 
@@ -885,7 +876,7 @@ footer .far {
   /* Color fallback */
   color: #fff;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: #0000008a;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.6);
   background-position: right;
 }
 
@@ -918,7 +909,7 @@ footer .far {
 
 /* Change the background position to display letter when the black zone isn't here */
 .clip-text--no-textzone:before {
-  /* background-position: -0.75em 0; */
+  background-position: -0.75em 0;
 }
 
 .clip-text--no-textzone:after {
@@ -935,9 +926,6 @@ footer .far {
 
 /* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
 .clip-text_fifteen {
-  /* background-image: url(https://jamesleomorris.com/img/banner-full-size.jpg); */
   background-image: url(../img/20200915_1739562.jpg);
-  background-size: cover;
-  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */
